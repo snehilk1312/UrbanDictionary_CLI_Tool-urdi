@@ -19,7 +19,7 @@ command ran : ***$  urdi "Schrödinger's Douchebag" | less***
 
 #### 1. git clone https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi.git
 #### 2. cd UrbanDictionary_CLI_Tool-urdi/urdi/
-#### 3  pip3 install -r requirements.txt
+#### 3. pip3 install -r requirements.txt
 #### 4. In home directory : mkdir myPythonScripts
 #### 5. In .bashrc(if you are in bash) file, add : export PATH="$PATH:/home/user/myPythonScripts"
 #### 6. source ~/.bashrc
