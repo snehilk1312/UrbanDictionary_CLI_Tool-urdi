@@ -27,6 +27,6 @@ command ran : ***$  urdi "Schrödinger's Douchebag" | less***
 #### 8. move urdi.py to myPythonScripts: mv ~/UrbanDictionary_CLI_Tool-urdi/urdi/urdi.py ~/myPythonScripts/urdi
 #### 9. chmod +x urdi
 
-Upon doing ablove steps we can run "todo" as any similar Linux command line commands(as "cd" , "pwd" , "ls"), with or without arguments.
+Upon doing above steps we can run "todo" as any similar Linux command line commands(as "cd" , "pwd" , "ls"), with or without arguments.
 
 ## For best formatting of text, sometime it maybe required to pipe the output into "less"
