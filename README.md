@@ -1,14 +1,18 @@
 # UrbanDictionary_CLI_Tool-urdi
 Use urban dictionary from your command line
 
+#### Without Piping into "less" : 
+command ran : ***$  urdi "Schrödinger's Douchebag"***
 
 ![without pipeing](https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi/blob/main/output_screenshots/without_less.png?raw=true)
-Without Piping into "less"
 
+#### With Piping into "less"  :
+command ran : ***$  urdi "Schrödinger's Douchebag" | less***
 
 
 ![with piping](https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi/blob/main/output_screenshots/with_less.png?raw=true)
-With Piping into "less"
+
+
 
 ## For \*nix systems: 
 ### To run this code from anywhere in terminal, do as follows:
