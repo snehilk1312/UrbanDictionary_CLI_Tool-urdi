@@ -18,7 +18,7 @@ import sys
 term = sys.argv[1]
 source_code = requests.get(f"https://www.urbandictionary.com/define.php?term={term}").text
 
-soup = BeautifulSoup(source_code, 'lxml')
+soup = BeautifulSoup(source_code,  'html5lib')
 
 # print(soup.prettify())
 divs = soup.find_all('div', class_="meaning")
