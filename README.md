@@ -1,9 +1,9 @@
 # UrbanDictionary_CLI_Tool-urdi
 Use urban dictionary from your command line
 
-![without pipeing](https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi/blob/main/without_less.png?raw=true)
+![without pipeing](https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi/blob/main/output_screenshots/without_less.png?raw=true)
 
-![with piping](https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi/blob/main/with_less.png?raw=true)
+![with piping](https://github.com/snehilk1312/UrbanDictionary_CLI_Tool-urdi/blob/main/output_screenshots/with_less.png?raw=true)
 
 
 ## For \*nix systems: 
