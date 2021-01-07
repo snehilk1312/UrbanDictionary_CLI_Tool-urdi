@@ -1,4 +1,4 @@
-# UrbanDictionary_CLI_Tool-urdi
+# UrbanDictionary_CLI_Tool  - urdi
 Use urban dictionary from your command line
 
 #### Without Piping into "less" : 
