@@ -8,12 +8,15 @@ banner_art=''' _   _        _                     ____   _        _    _
                                                                                        |___/ 
 '''
 
-print(banner_art)
 
 from bs4 import BeautifulSoup
 import requests
 import re
 import sys
+
+if len(sys.argv) < 2:
+    print("Enter a word to get its meaning!")
+    exit(0)
 
 term = sys.argv[1]
 source_code = requests.get(f"https://www.urbandictionary.com/define.php?term={term}").text
@@ -24,16 +27,17 @@ soup = BeautifulSoup(source_code,  'html5lib')
 divs = soup.find_all('div', class_="meaning")
 
 
+print(banner_art)
 print(f"\nMeaning for word {term}:	", '\n')
 
 
 count = 0
 num = 1
 for div in divs:
-    if count != 1:
-        a = str(div)
-        a = re.sub("[\<].*?[\>]","", a)
-        print(f"Definition number {num}:")
-        print(a, end='\n'*3)
-        num += 1
+    # if count != 1:
+    a = str(div)
+    a = re.sub("[\<].*?[\>]","", a)
+    print(f"Definition number {num}:")
+    print(a, end='\n'*3)
+    num += 1
     count += 1
